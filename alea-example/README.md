@@ -11,3 +11,5 @@ Code examples
 
 Docker image:
 [https://blog.jessfraz.com/post/docker-containers-on-the-desktop/](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/)
+
+http://www.slideshare.net/InfoQ/taming-functional-web-testing-with-spock-and-geb
