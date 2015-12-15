@@ -1,7 +1,7 @@
 package home
 
 import geb.spock.GebReportingSpec
-import createCustomer.pages.CustomerListPage
+import listCustomers.CustomerListPage
 
 
 class HomeSpec extends GebReportingSpec {

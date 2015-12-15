@@ -1,6 +1,8 @@
-package createCustomer.pages
+package listCustomers
 
 import geb.Page
+import common.NavigationBarModule
+import common.SideMenuNavigationModule
 
 class CustomerListPage extends Page {
 
@@ -9,6 +11,7 @@ class CustomerListPage extends Page {
     static content = {
         searchInputField { $("input #criteria") }
         sideMenu { module SideMenuNavigationModule }
+        navigationBarToggleMenu { module NavigationBarModule }
     }
 
     static at = {

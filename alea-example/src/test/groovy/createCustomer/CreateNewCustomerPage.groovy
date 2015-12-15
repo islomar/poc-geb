@@ -1,4 +1,4 @@
-package createCustomer.pages
+package createCustomer
 
 import geb.Page
 

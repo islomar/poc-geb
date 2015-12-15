@@ -1,17 +1,19 @@
 package dashboardOlts
 
-import createCustomer.pages.BasePage
+import common.BasePage
 
 class DashboardOltsPage extends BasePage {
 
     static url = "/lab/html/dashboard_olts"
 
     static content = {
-        oltIdLink { $("html body div#wrap div#container div#autorefresh h1 a.modal-action") }
+        oltIdLink { $("div#autorefresh h1 a.modal-action") }
+        divAutorefresh { $("div #autorefresh") }
     }
 
     static at = {
-        oltIdLink
+        divAutorefresh
+        oltIdLink.text() == "lab:gpon1"
     }
 
 }

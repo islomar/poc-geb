@@ -7,7 +7,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver
 
 def LOCALE_ES = "es"
 
-baseUrl = 'http://xema:xemaalea@localhost:9005'
+baseUrl = 'http://xxx:yyy@localhost:9005'
 
 // Launch Firefox browser by default
 driver = "firefox"

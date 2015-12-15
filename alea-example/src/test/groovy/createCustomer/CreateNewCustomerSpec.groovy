@@ -1,10 +1,11 @@
 package createCustomer
 
 import geb.spock.GebReportingSpec
-import createCustomer.pages.CreateNewCustomerPage
+import spock.lang.Ignore
 
 class CreateNewCustomerSpec extends GebReportingSpec {
 
+    @Ignore
     def "go to Create new customer page"() {
         when: "the user goes to the new customer page"
             to CreateNewCustomerPage
