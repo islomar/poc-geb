@@ -8,8 +8,8 @@
 	<properties>
 		<gebVersion>0.10.0</gebVersion>
 		<spockVersion>1.0-groovy-2.4</spockVersion>
-		<seleniumVersion>2.45.0</seleniumVersion>
-		<groovyVersion>2.4.1</groovyVersion>
+		<seleniumVersion>2.48.2</seleniumVersion>
+		<groovyVersion>2.4.5</groovyVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -61,6 +61,11 @@
 			<version>${seleniumVersion}</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-htmlunit-driver</artifactId>
+			<version>${seleniumVersion}</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -70,7 +75,7 @@
 				<version>2.9</version>
 				<configuration>
 					<includes>
-						<include>*Spec.*</include>
+						<include>**/*Spec.*</include>
 					</includes>
 					<systemPropertyVariables>
 						<geb.build.reportsDir>target/test-reports/geb</geb.build.reportsDir>
