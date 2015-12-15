@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<gebVersion>0.10.0</gebVersion>
+		<gebVersion>0.12.2</gebVersion>
 		<spockVersion>1.0-groovy-2.4</spockVersion>
 		<seleniumVersion>2.48.2</seleniumVersion>
 		<groovyVersion>2.4.5</groovyVersion>
@@ -23,7 +23,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.8.1</version>
+			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
