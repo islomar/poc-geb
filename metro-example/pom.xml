@@ -8,7 +8,7 @@
 	<properties>
 		<gebVersion>0.10.0</gebVersion>
 		<spockVersion>1.0-groovy-2.4</spockVersion>
-		<seleniumVersion>2.45.0</seleniumVersion>
+		<seleniumVersion>3.13.0</seleniumVersion>
 		<groovyVersion>2.4.1</groovyVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
